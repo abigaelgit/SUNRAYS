@@ -33,7 +33,7 @@ import SingleProduct from "../components/SingleProduct";
 export default function Market() {
   return (
     <>
-      <ScrollView style={tailwind("w-full bg-blue-400")}>
+      <ScrollView style={tailwind("w-full bg-green-400")}>
         <SafeAreaView style={tailwind("justify-center ")}>
           <View style={tailwind("items-center  ")}>
             <View style={tailwind("px-4 pt-4 w-full flex ")}>
@@ -46,7 +46,7 @@ export default function Market() {
 
         <View
           style={tailwind(
-            "flex flex-row justify-center  bg-gray-100 p-2 m-2 border-2 border-blue-400 rounded-xl mb-6 "
+            "flex flex-row justify-center  bg-gray-100 p-2 m-2 border-2 border-green-400 rounded-xl mb-6 "
           )}
         >
           <Icon
@@ -54,7 +54,7 @@ export default function Market() {
             iconStyle={{ marginRight: 10 }}
             size={40}
             type="ionicon"
-            color="#60a5fa"
+            color="#22c55e"
           />
           <TextInput
             placeholder="Find any type of shoe"

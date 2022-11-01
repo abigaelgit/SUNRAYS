@@ -1,16 +1,27 @@
 {
-  "name": "server",
+  "name": "mern-tutorial",
   "version": "1.0.0",
-  "description": "Server for Sunrays Solar Limited",
+  "description": "Goalsetter app for youtube tutorial",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  
   },
-  "keywords": [
-    "MERN",
-    "Stack"
-  ],
-  "author": "Abigael",
-  "license": "ISC"
+  "author": "Abigael ",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.9"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
 }

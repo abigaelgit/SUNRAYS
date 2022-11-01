@@ -20,17 +20,17 @@ function HomeScreen({ navigation }) {
     <>
       <View
         style={tailwind(
-          "flex flex-col  justify-center bg-blue-100 "
+          "flex flex-col  justify-center bg-green-100 h-full "
         )}
       >
         <SafeAreaView
           style={tailwind(
-            "flex flex-row   pb-5 justify-center bg-blue-100 "
+            "flex flex-row   pb-5 justify-center bg-green-100 "
           )}
         >
           <View style={tailwind(" w-full p-2")}>
             <Text style={tailwind(" text-center font-semibold text-xl ")}>
-              Mobile Ecommerce App
+              Sunrays Solar Ltd
             </Text>
 
             <Text
@@ -38,20 +38,20 @@ function HomeScreen({ navigation }) {
                 " text-xs text-center font-semibold px-14 py-2  "
               )}
             >
-              👋👋👋Welcome Admin to your Dashboard
+              👋👋👋Welcome User to your Dashboard
             </Text>
           </View>
         </SafeAreaView>
 
         <SafeAreaView
           style={tailwind(
-            "flex flex-row  justify-center bg-blue-200 rounded-t-3xl pt-10 "
+            "flex flex-row  justify-center bg-green-200 rounded-t-3xl pt-10 "
           )}
         >
           <View style={tailwind("flex w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2 m-1 rounded-xl text-white font-semibold text-sm  w-48"
+                "bg-green-500  p-2 m-1 rounded-xl text-white font-semibold text-sm  w-48"
               )}
             >
               <Icon
@@ -63,7 +63,7 @@ function HomeScreen({ navigation }) {
 
               <Button
                 onPress={() => navigation.navigate("Admin")}
-                title="Go to Admin"
+                title="Go to Account"
               />
             </View>
           </View>
@@ -71,7 +71,7 @@ function HomeScreen({ navigation }) {
           <View style={tailwind("flex items-center w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2  m-1 rounded-xl text-white font-semibold text-sm w-48 "
+                "bg-green-500  p-2  m-1 rounded-xl text-white font-semibold text-sm w-48 "
               )}
             >
               <Icon
@@ -91,13 +91,13 @@ function HomeScreen({ navigation }) {
 
         <SafeAreaView
           style={tailwind(
-            "flex flex-row   justify-center bg-blue-200 pt-3 "
+            "flex flex-row   justify-center bg-green-200 pt-3 "
           )}
         >
           <View style={tailwind("flex w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2  m-1 rounded-xl text-white font-semibold text-sm w-48"
+                "bg-green-500  p-2  m-1 rounded-xl text-white font-semibold text-sm w-48"
               )}
             >
               <Icon
@@ -117,7 +117,7 @@ function HomeScreen({ navigation }) {
           <View style={tailwind("flex w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
+                "bg-green-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
               )}
             >
               <Icon
@@ -137,13 +137,13 @@ function HomeScreen({ navigation }) {
 
         <SafeAreaView
           style={tailwind(
-            "flex flex-row  justify-center bg-blue-200 pt-3 "
+            "flex flex-row  justify-center bg-green-200 pt-3 "
           )}
         >
           <View style={tailwind("flex w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
+                "bg-green-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
               )}
             >
               <Icon
@@ -163,7 +163,7 @@ function HomeScreen({ navigation }) {
           <View style={tailwind("flex w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
+                "bg-green-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
               )}
             >
               <Icon
@@ -184,13 +184,13 @@ function HomeScreen({ navigation }) {
 
         <SafeAreaView
           style={tailwind(
-            "flex flex-row justify-center bg-blue-200 pt-3 pb-8 "
+            "flex flex-row justify-center bg-green-200 pt-3 pb-10 "
           )}
         >
           <View style={tailwind("flex w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2  m-1 rounded-xl text-white font-semibold text-sm w-48"
+                "bg-green-500  p-2  m-1 rounded-xl text-white font-semibold text-sm w-48"
               )}
             >
               <Icon
@@ -209,7 +209,7 @@ function HomeScreen({ navigation }) {
           <View style={tailwind("flex w-1/2")}>
             <View
               style={tailwind(
-                "bg-blue-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
+                "bg-green-500  p-2  m-1 rounded-xl text-white font-semibold text-sm  w-48"
               )}
             >
               <Icon
