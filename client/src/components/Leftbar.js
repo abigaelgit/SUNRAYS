@@ -53,6 +53,31 @@ const Leftbar = () => {
 
 
                
+        <NavLink
+          to="/inventory"
+          className={({ isActive }) =>
+            isActive
+              ? activeClassName
+              : "text-black flex items-center pl-3 py-3 pr-4   rounded hover:bg-slate-200 hover:rounded "
+          }
+        >
+          <MdInventory className="mr-6" size="25px" />
+          <span>Inventory </span>
+        </NavLink>
+
+        <NavLink
+          to="/delivery"
+          className={({ isActive }) =>
+            isActive
+              ? activeClassName
+              : "text-black flex items-center pl-3 py-3 pr-4   rounded hover:bg-slate-200 hover:rounded "
+          }
+        >
+          <GrDeliver className="mr-6" size="25px" />
+          <span>Delivery </span>
+        </NavLink>
+
+
 
         <NavLink
           to="/project"
@@ -78,29 +103,7 @@ const Leftbar = () => {
           <span>Finance </span>
         </NavLink>
 
-        <NavLink
-          to="/inventory"
-          className={({ isActive }) =>
-            isActive
-              ? activeClassName
-              : "text-black flex items-center pl-3 py-3 pr-4   rounded hover:bg-slate-200 hover:rounded "
-          }
-        >
-          <MdInventory className="mr-6" size="25px" />
-          <span>Inventory </span>
-        </NavLink>
-
-        <NavLink
-          to="/delivery"
-          className={({ isActive }) =>
-            isActive
-              ? activeClassName
-              : "text-black flex items-center pl-3 py-3 pr-4   rounded hover:bg-slate-200 hover:rounded "
-          }
-        >
-          <GrDeliver className="mr-6" size="25px" />
-          <span>Delivery </span>
-        </NavLink>
+       
 
         <NavLink
           to="/service"
